@@ -13,7 +13,6 @@ Valid email
 Mongo Atlas DB account ( https://mongodb.com)
 Postman for testing different requests
 Node.js 8.113 LTS
-
 ```
 
 ### Installing
