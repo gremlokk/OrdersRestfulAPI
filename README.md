@@ -40,11 +40,11 @@ Step 5: Congratulations you have successfully setup the Orders API.
 ### Valid URL Params
 
 Products
-    1. localhost:3001/products/
-    2. localhost:3001/products/productId
+    * localhost:3001/products/
+    * localhost:3001/products/productId
 Orders
-    1. localhost:3001/order/
-    2. localhost:3001/order/orderId
+    * localhost:3001/order/
+    * localhost:3001/order/orderId
 
 ## Built With
 
