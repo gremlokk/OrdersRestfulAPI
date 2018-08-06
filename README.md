@@ -31,6 +31,21 @@ Step 4: Open postman and access local host as a test localhost:"YOUR_PORT#"/orde
 Step 5: Congratulations you have successfully setup the Orders API.
 ```
 
+### Supported Methods
+  
+  <_The request type_>
+
+  `GET` | `POST` | `DELETE` | `PUT`
+  
+### Valid URL Params
+
+Products
+    1. localhost:3001/products/
+    2. localhost:3001/products/productId
+Orders
+    1. localhost:3001/order/
+    2. localhost:3001/order/orderId
+
 ## Built With
 
 * JSON - Dependecies 
@@ -57,3 +72,4 @@ This project is licensed under my own two hands - see the [LICENSE.md](LICENSE.m
 ## Acknowledgments
 
 This project was inspired to increase productivity by allowing users to have a easy way to send web pages to themselves fast.
+
