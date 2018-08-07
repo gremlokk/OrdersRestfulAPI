@@ -50,7 +50,7 @@ Orders
 ## Built With
 
 * JSON - Dependecies 
-* Javascript - DOM Manipulation
+* Javascript
 
 ## Contributing
 
