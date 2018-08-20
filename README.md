@@ -27,8 +27,9 @@ Step 3: Install the following Node packages.
 - npm install --save nodemon
 - npm install --save morgan
 - npm install --save mongodb 
-Step 4: Open postman and access local host as a test localhost:"YOUR_PORT#"/orders/ (EX. localhost:3001/orders/)
-Step 5: Congratulations you have successfully setup the Orders API.
+Step 4: Change the app.js file, and put your mongoose connect credentials in line 11 
+Step 5: Open postman and access local host as a test localhost:"YOUR_PORT#"/orders/ (EX. localhost:3001/orders/)
+Step 6: Congratulations you have successfully setup the Orders API.
 ```
 
 ### Supported Methods
