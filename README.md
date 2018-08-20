@@ -20,7 +20,6 @@ Node.js 8.113 LTS
 ```
 Step 1: Download zip file and unzip it.
 Step 2: Set up free version of cluster at cloud.mongodb.com, and click the connect button after cluster generates to get your mongodb path.
-Step 3: Change the app file to put your Mongo DB path on line 10: Ex. mongoose.connect('mongodb://username:pw!@cluster0-shard....
 Step 3: Install the following Node packages.
 - npm install --save express
 - npm install --save mongoose
