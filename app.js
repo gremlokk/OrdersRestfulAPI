@@ -11,11 +11,11 @@ const admin = process.env.MONGO_ATLAS_PW;
 mongoose.connect('mongodb://username:@@@@@@@@@@@@!@cluster0-shard-00-00-aekpg.mongodb.net:27017,cluster0-shard-00-01-aekpg.mongodb.net:27017,cluster0-shard-00-02-aekpg.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true', { useNewUrlParser: true });
 
 //Route middleware PKGs app.use()
-app.use(morgan('dev'));
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
+app.use(morgan('dev'));//logger middleware
+app.use(express.urlencoded({ extended: false }));//no nested data to be posted
+app.use(express.json());//format of data
 app.use((req, res, next) => {//handles origin headers
-    res.header('Access-Control-Allow-Origin', '*');//provides access 
+    res.header('Access-Control-Allow-Origin', '*');//provides everyone access 
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
 
     if (req.method === 'OPTIONS') {//allows us to limit the methods we want to support
