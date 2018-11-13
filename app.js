@@ -8,7 +8,7 @@ const orderRoutes = require('./API/routes/orders');
 const admin = process.env.MONGO_ATLAS_PW;
 
 //start mongoose server
-mongoose.connect('mongodb://fredrickryans:@@@@@@@@@@@@!@cluster0-shard-00-00-aekpg.mongodb.net:27017,cluster0-shard-00-01-aekpg.mongodb.net:27017,cluster0-shard-00-02-aekpg.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true', { useNewUrlParser: true });
+mongoose.connect('mongodb://username:@@@@@@@@@@@@!@cluster0-shard-00-00-aekpg.mongodb.net:27017,cluster0-shard-00-01-aekpg.mongodb.net:27017,cluster0-shard-00-02-aekpg.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true', { useNewUrlParser: true });
 
 //Route middleware PKGs app.use()
 app.use(morgan('dev'));
